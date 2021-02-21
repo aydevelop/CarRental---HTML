@@ -109,3 +109,79 @@ a {
 .top__slider {
   width: 50%;
 }
+
+.slick-dots {
+  list-style: none;
+  position: absolute;
+  right: 0;
+  top: 40%;
+  text-align: center;
+}
+
+.slick-dots button {
+  font-size: 0;
+  width: 8px;
+  height: 8px;
+  background-color: #332208;
+  border: none;
+  border-radius: 50%;
+  padding: 0;
+  margin: 0 auto;
+}
+
+.slick-active button {
+  width: 16px;
+  height: 16px;
+}
+
+.top__slider-text {
+  text-align: center;
+}
+
+.top__slider-text span + span {
+  padding-left: 12px;
+}
+
+.top__bottom {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.top__items {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.top__item {
+  border: 1px solid #1b1818;
+  padding: 10px;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.top__item:hover {
+  transform: scale(1.25);
+}
+
+.top__links {
+  padding-right: 100px;
+}
+
+.top__link {
+  color: #1b1818;
+  border-bottom: 1px solid black;
+}
+
+.top__links a + a {
+  margin-left: 15px;
+}
