@@ -65,6 +65,10 @@ a {
   line-height: 21px;
 }
 
+.top {
+  padding-bottom: 100px;
+}
+
 .top__heading {
   display: flex;
   padding-top: 50px;
@@ -184,4 +188,52 @@ a {
 
 .top__links a + a {
   margin-left: 15px;
+}
+
+.rent {
+  padding: 50px 0;
+}
+
+.rent__content {
+  padding-right: 10px;
+}
+
+.rent__inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.rent__title {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  margin-bottom: 30px;
+}
+
+.rent__text {
+  margin-bottom: 20px;
+}
+
+.rent__text + .rent__text {
+  margin-bottom: 70px;
+}
+
+.rent__item {
+  border: 1px solid #332208;
+  margin: 0px 40px;
+  padding: 0 30px 10px;
+  text-align: center;
+}
+
+.rent__item-num {
+  font-weight: 500;
+  font-size: 96px;
+  line-height: 115px;
+  opacity: 0.05;
+}
+
+.rent__item-title {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
 }
