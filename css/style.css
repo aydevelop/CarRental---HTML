@@ -20,6 +20,7 @@ body {
   font-size: 16px;
   line-height: 19px;
   font-family: 'Roboto Condensed', sans-serif;
+  padding-bottom: 50px;
 }
 
 a {
@@ -229,11 +230,65 @@ a {
   font-weight: 500;
   font-size: 96px;
   line-height: 115px;
-  opacity: 0.05;
+  opacity: 0.3;
 }
 
 .rent__item-title {
   font-weight: 500;
   font-size: 18px;
   line-height: 22px;
+}
+
+.benefits {
+  padding: 100px 0;
+}
+
+.benefits__title {
+  font-family: Fira Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 59px;
+}
+
+.benefits__items {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* 
+.benefits__items > * {
+  flex: 1;
+} */
+
+/* 
+.benefits__images {
+  height: 300px;
+} */
+
+.benefits__list {
+  max-width: 300px;
+  list-style: none;
+}
+
+.benefits__list-item {
+  margin-bottom: 27px;
+  margin-right: 26px;
+  position: relative;
+  width: 100%;
+}
+
+.benefits__list-item::after {
+  content: '';
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: black;
+  position: absolute;
+  right: 0;
+}
+
+.benefits__content {
+  max-width: 200px;
 }
