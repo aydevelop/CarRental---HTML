@@ -249,6 +249,7 @@ a {
   font-weight: 500;
   font-size: 24px;
   line-height: 59px;
+  margin-bottom: 40px;
 }
 
 .benefits__items {
@@ -286,9 +287,111 @@ a {
   border-radius: 50%;
   background: black;
   position: absolute;
-  right: 0;
+  margin-left: 15px;
 }
 
 .benefits__content {
   max-width: 200px;
+}
+
+.benefits__list-item:nth-child(1),
+.benefits__list-item:nth-child(7) {
+  margin-left: 70px;
+}
+
+.benefits__list-item:nth-child(2),
+.benefits__list-item:nth-child(6) {
+  margin-left: 60px;
+}
+
+.benefits__list-item:nth-child(3),
+.benefits__list-item:nth-child(5) {
+  margin-left: 40px;
+}
+
+.benefits__list-item:nth-child(4) {
+  margin-left: 20px;
+}
+
+.benefits__text {
+  margin-bottom: 30px;
+  text-align: right;
+}
+
+.video-popup {
+  background-color: #c5ac2d;
+  text-transform: uppercase;
+  color: white;
+  padding: 6px 34px 6px 64px;
+  text-align: center;
+  display: inline-block;
+  position: relative;
+}
+
+.video-popup::before {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  background-image: url('../images/play.svg');
+  top: 12px;
+  left: 24px;
+}
+
+.reviews {
+  padding: 100px 0;
+  background-color: #332208;
+  color: #fefefe;
+}
+
+.review__title {
+  font-size: 28px;
+  line-height: 29px;
+  margin-bottom: 50px;
+  margin-left: 20px;
+}
+
+.reviews__item {
+  border: 1px solid #c5ac2d;
+  height: 250px;
+  text-align: center;
+  margin: 20px;
+  padding: 30px;
+  display: flex;
+}
+
+.reviews__item-name {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  margin-top: 7px;
+}
+
+.reviews__item-text {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.reviews .slick-dots {
+  position: inherit;
+  display: flex;
+  justify-content: center;
+}
+
+.reviews .slick-dots button {
+  background-color: #c5ac2d;
+  margin: 30px 10px;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+}
+
+.reviews .slick-dots .slick-active button {
+  top: -4px;
+  position: relative;
+  border: 0;
+  outline: 0;
 }
