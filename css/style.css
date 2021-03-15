@@ -457,4 +457,41 @@ a {
   font-weight: 400;
   font-style: 16px;
   line-height: 19px;
+  transition: all 0.5s;
+  border: 1px solid transparent;
+}
+
+.feedback__btn:hover {
+  background-color: #fefefe;
+  color: #c5ac2d;
+  border: 1px solid #c5ac2d;
+}
+
+.footer {
+  background-color: #332208;
+  padding: 100px 0 24px;
+}
+
+.footer__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__social {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+@media (max-width: 1000px) {
+  .footer__social {
+    display: block;
+  }
+}
+
+.footer__social-link {
+  margin: 0px 15px;
 }
