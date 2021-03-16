@@ -10,6 +10,32 @@
   display: none;
 }
 
+@media (max-width: 1000px) {
+  .top__heading {
+    display: block;
+  }
+
+  .top__content {
+    max-width: 100%;
+  }
+  .top__slider {
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+  .top__bottom {
+    display: block;
+  }
+
+  .top__links {
+    padding-right: 0;
+    padding-top: 40px;
+    text-align: center;
+  }
+}
+
 @media (max-width: 860px) {
   .menu {
     order: 1;
@@ -58,9 +84,9 @@
     content: '';
     position: absolute;
     width: 35px;
-    height: 1px;
+    height: 2px;
     background-color: white;
     left: 0;
-    top: 11px;
+    top: 10px;
   }
 }

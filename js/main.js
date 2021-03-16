@@ -4,6 +4,14 @@ $(function () {
     dots: true,
     autoplay: true,
     fade: true,
+    responsive: [
+      {
+        breakpoint: 1200,
+        settings: {
+          dots: false,
+        },
+      },
+    ],
   });
 
   $('.review__slider').slick({
