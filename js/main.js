@@ -19,6 +19,20 @@ $(function () {
     dots: true,
     slidesToShow: 3,
     slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 1140,
+        settings: {
+          slidesToShow: 2,
+        },
+      },
+      {
+        breakpoint: 620,
+        settings: {
+          slidesToShow: 1,
+        },
+      },
+    ],
   });
 
   $('.menu__btn').on('click', function () {
